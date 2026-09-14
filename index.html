@@ -1,39 +1,155 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Gridiron League Hub — a Madden football league for competitive online play.">
-  <title>Gridiron League Hub | Madden League</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-
-<header class="site-header">
-  <nav class="nav container" aria-label="Primary navigation">
-
-    <a class="logo" href="index.html">
-      The Reaper <span>LEAGUE</span>
-    </a>
-
-    <button class="menu-toggle"
-            type="button"
-            aria-expanded="false"
-            aria-controls="site-menu">
-      Menu
-    </button>
-
-    <div id="site-menu" class="nav-links">
-      <a class="active" href="index.html">Home</a>
-      <a href="standings.html">Standings</a>
-      <a href="#rules">League Rules</a>
-      <a href="#contact">Contact</a>
+```html
+<!-- PLAYER OF THE WEEK -->
+<section class="section container">
+    <div class="section-heading">
+        <div>
+            <p class="eyebrow">WEEK 8 AWARD</p>
+            <h2>Player of the Week</h2>
+        </div>
+        <p>The player who dominated the competition this week.</p>
     </div>
 
-  </nav>
-</header>
+    <div class="award-hero">
+        <div class="award-badge">POTW</div>
 
+        <div>
+            <p class="eyebrow">WEEK 8 WINNER</p>
+            <h2>Jordan “J-Rex” Reed</h2>
+            <p class="award-team">
+                Reaper Kings • Quarterback
+            </p>
+
+            <p>
+                Reed put together a dominant performance to help the
+                Reaper Kings stay on top of the league standings.
+            </p>
+
+            <div class="card-grid four">
+                <div class="stat-card">
+                    <strong>356</strong>
+                    <span>Passing Yards</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>4</strong>
+                    <span>Passing TDs</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>0</strong>
+                    <span>Interceptions</span>
+                </div>
+
+                <div class="stat-card">
+                    <strong>82%</strong>
+                    <span>Completion</span>
+                </div>
+            </div>
+
+            <a class="button" href="potw.html">
+                View Full POTW
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- GAME OF THE WEEK -->
+<section class="section dark-section">
+    <div class="container">
+
+        <div class="section-heading">
+            <div>
+                <p class="eyebrow">WEEK 9 FEATURE</p>
+                <h2>Game of the Week</h2>
+            </div>
+
+            <p>
+                The biggest matchup in the Reaper Lounge this week.
+            </p>
+        </div>
+
+        <div class="matchup">
+
+            <!-- TEAM 1 -->
+            <div class="team-side">
+                <span class="team-mark">RK</span>
+
+                <h2>Reaper Kings</h2>
+
+                <p>
+                    7–1 • #1 Seed • W4
+                </p>
+            </div>
+
+
+            <!-- VS -->
+            <div class="versus">
+                <span>GOTW</span>
+
+                <strong>VS</strong>
+
+                <small>WEEK 9</small>
+            </div>
+
+
+            <!-- TEAM 2 -->
+            <div class="team-side">
+                <span class="team-mark">GG</span>
+
+                <h2>Gridiron Ghosts</h2>
+
+                <p>
+                    6–2 • #2 Seed • W2
+                </p>
+            </div>
+
+        </div>
+
+
+        <!-- GAME INFORMATION -->
+        <div class="card-grid two">
+
+            <article class="panel">
+                <h2>Why It Matters</h2>
+
+                <p>
+                    The top two teams in the league face off.
+                    A Gridiron Ghosts victory would create a tie
+                    at the top of the standings.
+                </p>
+
+                <ul class="rules">
+                    <li>#1 vs. #2 matchup</li>
+                    <li>Both teams are on winning streaks</li>
+                    <li>Major playoff implications</li>
+                </ul>
+            </article>
+
+
+            <article class="panel">
+                <h2>GOTW Prediction</h2>
+
+                <p class="prediction">
+                    Reaper Kings 31 — 27 Gridiron Ghosts
+                </p>
+
+                <p>
+                    Prediction: J-Rex Reed throws three touchdowns
+                    while the Ghosts keep the game close into the
+                    fourth quarter.
+                </p>
+
+                <a class="button button-outline" href="gotw.html">
+                    View Full GOTW
+                </a>
+            </article>
+
+        </div>
+
+    </div>
+</section>
+```
 <main>
 
 <section class="hero">
